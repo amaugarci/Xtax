@@ -1,0 +1,23 @@
+name: flutter_blue_example
+description: Demonstrates how to use the flutter_blue plugin.
+publish_to: "none"
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue: ^0.8.0
+  number_inc_dec: ^0.8.0
+  share: ^2.0.4
+  syncfusion_flutter_xlsio: ^19.4.38-beta
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
